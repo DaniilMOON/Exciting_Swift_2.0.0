@@ -36,6 +36,7 @@ final class FebruaryMediumViewController: UIViewController {
         let layout = createLayout()
         layout.register(SectionBackgroundView.self, forDecorationViewOfKind: SectionBackgroundView.elementKind)
         collectionView.collectionViewLayout = layout
+        collectionView.showsVerticalScrollIndicator = false
         collectionView.clipsToBounds = true
         collectionView.dataSource = self
         collectionView.register(ColorCell.self, forCellWithReuseIdentifier: ColorCell.reuseIdentifier)
