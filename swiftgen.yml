@@ -1,0 +1,28 @@
+input_dir: Exciting_Swift_2.0.0/Resources/
+output_dir: Exciting_Swift_2.0.0/Classes/Generated
+strings:
+    inputs:
+        - Localizable/ru.lproj/Localizable.strings
+        - Localizable/ru.lproj/Localizable.stringsdict
+    outputs:
+        templateName: structured-swift5
+        output: Strings.swift
+xcassets:
+    inputs: Assets.xcassets
+    outputs:
+        templateName: swift5
+        output: Assets.swift
+plist:
+    inputs: Info.plist
+    outputs:
+        templateName: runtime-swift5
+        output: Plist.swift
+ib:
+    inputs: Storyboards
+    outputs:
+        - templateName: scenes-swift5
+          output: StoryboardScenes.swift
+          params:
+            ignoreTargetModule: true
+        - templateName: segues-swift5
+          output: StoryboardSegues.swift

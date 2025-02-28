@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FebruaryEasyViewController: UIViewController {
     // MARK: Properties
 
     private var sliderValue = 20 {
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     }
 
     private func maskForStar(star: UIView) {
-        let starImageView = UIImageView(image: .star)
+        let starImageView = UIImageView(image: Asset.star.image)
         starImageView.contentMode = .scaleAspectFit
         starImageView.frame = star.bounds
 

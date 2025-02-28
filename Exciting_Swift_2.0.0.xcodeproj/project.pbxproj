@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0D503A2D7113F6003AF4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0D50392D7113F6003AF4AF /* Main.storyboard */; };
+		ED0D503C2D711423003AF4AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D503B2D711423003AF4AF /* MainViewController.swift */; };
 		ED1D672E2D6FAF3300EAB9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D672D2D6FAF3300EAB9D4 /* AppDelegate.swift */; };
-		ED1D67322D6FAF3300EAB9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D67312D6FAF3300EAB9D4 /* ViewController.swift */; };
 		ED1D67352D6FAF3300EAB9D4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED1D67342D6FAF3300EAB9D4 /* Base */; };
 		ED1D67372D6FAF3500EAB9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1D67362D6FAF3500EAB9D4 /* Assets.xcassets */; };
 		ED1D673A2D6FAF3500EAB9D4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ED1D67392D6FAF3500EAB9D4 /* Base */; };
+		ED34502E2D71B6DA00E9B701 /* VCFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34502D2D71B6DA00E9B701 /* VCFactory.swift */; };
+		ED3450362D71BBA200E9B701 /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450322D71BBA200E9B701 /* Plist.swift */; };
+		ED3450372D71BBA200E9B701 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450332D71BBA200E9B701 /* Assets.swift */; };
+		ED3450382D71BBA200E9B701 /* StoryboardSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450342D71BBA200E9B701 /* StoryboardSegues.swift */; };
+		ED3450392D71BBA200E9B701 /* StoryboardScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450352D71BBA200E9B701 /* StoryboardScenes.swift */; };
+		ED34504C2D71BF2500E9B701 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3450482D71BF2500E9B701 /* Localizable.strings */; };
+		ED34504D2D71BF2500E9B701 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = ED34504A2D71BF2500E9B701 /* Localizable.stringsdict */; };
+		ED34504F2D71BF8600E9B701 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34504E2D71BF8600E9B701 /* Strings.swift */; };
+		ED3450532D71C1F200E9B701 /* FebruaryEasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450522D71C1F200E9B701 /* FebruaryEasyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0D50392D7113F6003AF4AF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ED0D503B2D711423003AF4AF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ED1D672A2D6FAF3300EAB9D4 /* Exciting_Swift_2.0.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exciting_Swift_2.0.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1D672D2D6FAF3300EAB9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED1D67312D6FAF3300EAB9D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED1D67342D6FAF3300EAB9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED1D67342D6FAF3300EAB9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FebruaryEasy.storyboard; sourceTree = "<group>"; };
 		ED1D67362D6FAF3500EAB9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1D67392D6FAF3500EAB9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1D673B2D6FAF3500EAB9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED34502D2D71B6DA00E9B701 /* VCFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCFactory.swift; sourceTree = "<group>"; };
+		ED3450322D71BBA200E9B701 /* Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		ED3450332D71BBA200E9B701 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		ED3450342D71BBA200E9B701 /* StoryboardSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSegues.swift; sourceTree = "<group>"; };
+		ED3450352D71BBA200E9B701 /* StoryboardScenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardScenes.swift; sourceTree = "<group>"; };
+		ED3450472D71BF2500E9B701 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Localizable.strings; sourceTree = "<group>"; };
+		ED3450492D71BF2500E9B701 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = Localizable.stringsdict; sourceTree = "<group>"; };
+		ED34504E2D71BF8600E9B701 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		ED3450522D71C1F200E9B701 /* FebruaryEasyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FebruaryEasyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED0D503D2D71153C003AF4AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D503B2D711423003AF4AF /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		ED1D67212D6FAF3300EAB9D4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +82,112 @@
 		ED1D672C2D6FAF3300EAB9D4 /* Exciting_Swift_2.0.0 */ = {
 			isa = PBXGroup;
 			children = (
-				ED1D672D2D6FAF3300EAB9D4 /* AppDelegate.swift */,
-				ED1D67312D6FAF3300EAB9D4 /* ViewController.swift */,
-				ED1D67332D6FAF3300EAB9D4 /* Main.storyboard */,
-				ED1D67362D6FAF3500EAB9D4 /* Assets.xcassets */,
-				ED1D67382D6FAF3500EAB9D4 /* LaunchScreen.storyboard */,
-				ED1D673B2D6FAF3500EAB9D4 /* Info.plist */,
+				ED3450282D71B64C00E9B701 /* Classes */,
+				ED3450212D71B56A00E9B701 /* Resources */,
 			);
 			path = Exciting_Swift_2.0.0;
+			sourceTree = "<group>";
+		};
+		ED3450212D71B56A00E9B701 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450232D71B5E000E9B701 /* Localizable */,
+				ED3450222D71B58C00E9B701 /* Storyboards */,
+				ED1D67362D6FAF3500EAB9D4 /* Assets.xcassets */,
+				ED1D673B2D6FAF3500EAB9D4 /* Info.plist */,
+				ED1D67382D6FAF3500EAB9D4 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED3450222D71B58C00E9B701 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D50392D7113F6003AF4AF /* Main.storyboard */,
+				ED1D67332D6FAF3300EAB9D4 /* FebruaryEasy.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ED3450232D71B5E000E9B701 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				ED34504B2D71BF2500E9B701 /* ru.lproj */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		ED3450282D71B64C00E9B701 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D672D2D6FAF3300EAB9D4 /* AppDelegate.swift */,
+				ED3450292D71B68300E9B701 /* Generated */,
+				ED34502A2D71B69200E9B701 /* Modules */,
+				ED34502B2D71B6AE00E9B701 /* Business */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ED3450292D71B68300E9B701 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450332D71BBA200E9B701 /* Assets.swift */,
+				ED3450322D71BBA200E9B701 /* Plist.swift */,
+				ED3450352D71BBA200E9B701 /* StoryboardScenes.swift */,
+				ED3450342D71BBA200E9B701 /* StoryboardSegues.swift */,
+				ED34504E2D71BF8600E9B701 /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		ED34502A2D71B69200E9B701 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450502D71C1CA00E9B701 /* February */,
+				ED0D503D2D71153C003AF4AF /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ED34502B2D71B6AE00E9B701 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				ED34502C2D71B6C500E9B701 /* Factories */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		ED34502C2D71B6C500E9B701 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				ED34502D2D71B6DA00E9B701 /* VCFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		ED34504B2D71BF2500E9B701 /* ru.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450482D71BF2500E9B701 /* Localizable.strings */,
+				ED34504A2D71BF2500E9B701 /* Localizable.stringsdict */,
+			);
+			path = ru.lproj;
+			sourceTree = "<group>";
+		};
+		ED3450502D71C1CA00E9B701 /* February */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450512D71C1D100E9B701 /* Easy */,
+			);
+			path = February;
+			sourceTree = "<group>";
+		};
+		ED3450512D71C1D100E9B701 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450522D71C1F200E9B701 /* FebruaryEasyViewController.swift */,
+			);
+			path = Easy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED1D673E2D6FAF3500EAB9D4 /* Build configuration list for PBXNativeTarget "Exciting_Swift_2.0.0" */;
 			buildPhases = (
+				ED3450202D71B45F00E9B701 /* SwiftGen */,
 				ED1D67262D6FAF3300EAB9D4 /* Sources */,
 				ED1D67272D6FAF3300EAB9D4 /* Frameworks */,
 				ED1D67282D6FAF3300EAB9D4 /* Resources */,
@@ -106,6 +233,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = ED1D67212D6FAF3300EAB9D4;
 			productRefGroup = ED1D672B2D6FAF3300EAB9D4 /* Products */;
@@ -124,31 +252,63 @@
 			files = (
 				ED1D67372D6FAF3500EAB9D4 /* Assets.xcassets in Resources */,
 				ED1D673A2D6FAF3500EAB9D4 /* Base in Resources */,
+				ED34504C2D71BF2500E9B701 /* Localizable.strings in Resources */,
 				ED1D67352D6FAF3300EAB9D4 /* Base in Resources */,
+				ED34504D2D71BF2500E9B701 /* Localizable.stringsdict in Resources */,
+				ED0D503A2D7113F6003AF4AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED3450202D71B45F00E9B701 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" == \"Debug\" ]; then\n  if which mint >/dev/null; then\n    xcrun --sdk macosx make swiftgen\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED1D67262D6FAF3300EAB9D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1D67322D6FAF3300EAB9D4 /* ViewController.swift in Sources */,
+				ED3450382D71BBA200E9B701 /* StoryboardSegues.swift in Sources */,
+				ED34504F2D71BF8600E9B701 /* Strings.swift in Sources */,
+				ED3450362D71BBA200E9B701 /* Plist.swift in Sources */,
+				ED0D503C2D711423003AF4AF /* MainViewController.swift in Sources */,
+				ED3450392D71BBA200E9B701 /* StoryboardScenes.swift in Sources */,
+				ED3450532D71C1F200E9B701 /* FebruaryEasyViewController.swift in Sources */,
+				ED3450372D71BBA200E9B701 /* Assets.swift in Sources */,
 				ED1D672E2D6FAF3300EAB9D4 /* AppDelegate.swift in Sources */,
+				ED34502E2D71B6DA00E9B701 /* VCFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED1D67332D6FAF3300EAB9D4 /* Main.storyboard */ = {
+		ED1D67332D6FAF3300EAB9D4 /* FebruaryEasy.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ED1D67342D6FAF3300EAB9D4 /* Base */,
 			);
-			name = Main.storyboard;
+			name = FebruaryEasy.storyboard;
 			sourceTree = "<group>";
 		};
 		ED1D67382D6FAF3500EAB9D4 /* LaunchScreen.storyboard */ = {
@@ -157,6 +317,22 @@
 				ED1D67392D6FAF3500EAB9D4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED3450482D71BF2500E9B701 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3450472D71BF2500E9B701 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		ED34504A2D71BF2500E9B701 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3450492D71BF2500E9B701 /* ru */,
+			);
+			name = Localizable.stringsdict;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,8 +465,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7KX5KP4MMU;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Exciting_Swift_2.0.0/Info.plist;
+				INFOPLIST_FILE = Exciting_Swift_2.0.0/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,8 +494,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7KX5KP4MMU;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Exciting_Swift_2.0.0/Info.plist;
+				INFOPLIST_FILE = Exciting_Swift_2.0.0/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
