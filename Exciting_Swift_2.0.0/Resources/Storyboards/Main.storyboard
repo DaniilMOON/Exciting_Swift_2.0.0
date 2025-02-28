@@ -15,9 +15,31 @@
                     <view key="view" contentMode="scaleToFill" id="HEJ-na-yKc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="82G-21-pfv">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oh3-1R-17X">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Wdc-y8-rAa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="82G-21-pfv" firstAttribute="top" secondItem="HEJ-na-yKc" secondAttribute="top" id="H0x-fr-Tbu"/>
+                            <constraint firstAttribute="bottom" secondItem="82G-21-pfv" secondAttribute="bottom" id="ILG-EK-Yps"/>
+                            <constraint firstAttribute="trailing" secondItem="82G-21-pfv" secondAttribute="trailing" id="jT0-89-aGA"/>
+                            <constraint firstItem="82G-21-pfv" firstAttribute="leading" secondItem="Wdc-y8-rAa" secondAttribute="leading" id="y9C-ut-odP"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="82G-21-pfv" id="wGH-sa-17J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ECm-ly-BUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

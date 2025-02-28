@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Exciting_Swift_2.0.0
-//
-//  Created by Даниил Осипов on 26.02.2025.
-//
-
 import UIKit
 
 @main
@@ -17,10 +10,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         let navigationController = UINavigationController()
-        let mainView = VCFactory.buildMainVC()
-        navigationController.viewControllers = [mainView]
+        let mainVС = VCFactory.buildMainVC(data: .months)
+        navigationController.viewControllers = [mainVС]
         self.window!.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
+
+        UINavigationBar.appearance().tintColor = .black
+
         return true
     }
 }

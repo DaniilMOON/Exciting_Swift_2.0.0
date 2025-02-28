@@ -34,9 +34,10 @@
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                         <constraints>
                                             <constraint firstItem="6rl-lp-KZ9" firstAttribute="leading" secondItem="Y0i-e2-uAO" secondAttribute="leading" id="DW8-TU-A5N"/>
-                                            <constraint firstAttribute="width" constant="50" id="UCw-Wt-g5h"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="UCw-Wt-g5h"/>
                                             <constraint firstAttribute="bottom" secondItem="6rl-lp-KZ9" secondAttribute="bottom" id="bf1-hN-wXL"/>
                                             <constraint firstAttribute="width" secondItem="Y0i-e2-uAO" secondAttribute="height" multiplier="1:1" id="cLD-pV-zQv"/>
+                                            <constraint firstAttribute="width" priority="750" constant="50" id="kQG-2h-CFi"/>
                                             <constraint firstItem="6rl-lp-KZ9" firstAttribute="top" secondItem="Y0i-e2-uAO" secondAttribute="top" id="noM-dh-QZn"/>
                                         </constraints>
                                     </view>
@@ -53,7 +54,6 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="4yi-qv-OSe"/>
                                             <constraint firstItem="5tg-kG-QmT" firstAttribute="leading" secondItem="yrk-Fe-nLb" secondAttribute="leading" id="CYp-W0-1ye"/>
                                             <constraint firstAttribute="trailing" secondItem="5tg-kG-QmT" secondAttribute="trailing" id="My3-pb-5lo"/>
                                             <constraint firstAttribute="width" secondItem="yrk-Fe-nLb" secondAttribute="height" multiplier="1:1" id="V8t-Ue-gCP"/>
@@ -62,6 +62,9 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Y0i-e2-uAO" firstAttribute="width" secondItem="yrk-Fe-nLb" secondAttribute="width" id="Ccs-Bn-VaG"/>
+                                </constraints>
                             </stackView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="1er-WR-QjW">
                                 <rect key="frame" x="18" y="481" width="357" height="31"/>

@@ -1,13 +1,6 @@
-//
-//  ViewController.swift
-//  Exciting_Swift_2.0.0
-//
-//  Created by Даниил Осипов on 26.02.2025.
-//
-
 import UIKit
 
-class FebruaryEasyViewController: UIViewController {
+final class FebruaryEasyViewController: UIViewController {
     // MARK: Properties
 
     private var sliderValue = 20 {
@@ -30,6 +23,7 @@ class FebruaryEasyViewController: UIViewController {
     // MARK: Configurations
 
     private func configuration() {
+        title = "\(L10n.Month.february): \(L10n.Сomplexity.easy)"
         valueLabel.text = "\(sliderValue)%"
         widthHighlightedStar.constant = horizontalStar.bounds.width * CGFloat(sliderValue) / 100
         heightHighlightedStar.constant = verticalStar.bounds.height * CGFloat(sliderValue) / 100

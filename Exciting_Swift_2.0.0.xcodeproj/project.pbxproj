@@ -22,6 +22,14 @@
 		ED34504D2D71BF2500E9B701 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = ED34504A2D71BF2500E9B701 /* Localizable.stringsdict */; };
 		ED34504F2D71BF8600E9B701 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34504E2D71BF8600E9B701 /* Strings.swift */; };
 		ED3450532D71C1F200E9B701 /* FebruaryEasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450522D71C1F200E9B701 /* FebruaryEasyViewController.swift */; };
+		ED34505B2D71CA8800E9B701 /* MenuVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450582D71CA8800E9B701 /* MenuVM.swift */; };
+		ED34505C2D71CA8800E9B701 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450592D71CA8800E9B701 /* MenuCell.swift */; };
+		ED3450602D71E6A600E9B701 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED34505F2D71E6A600E9B701 /* MenuCell.xib */; };
+		ED3450632D71F59D00E9B701 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450622D71F59D00E9B701 /* MenuData.swift */; };
+		ED3450662D7201EA00E9B701 /* FebruaryMediumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450652D7201EA00E9B701 /* FebruaryMediumViewController.swift */; };
+		ED3450682D72027300E9B701 /* FebruaryMedium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3450672D72027300E9B701 /* FebruaryMedium.storyboard */; };
+		ED3450712D72036300E9B701 /* ColorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34506E2D72036300E9B701 /* ColorVM.swift */; };
+		ED3450722D72036300E9B701 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34506F2D72036300E9B701 /* ColorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +50,14 @@
 		ED3450492D71BF2500E9B701 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = Localizable.stringsdict; sourceTree = "<group>"; };
 		ED34504E2D71BF8600E9B701 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		ED3450522D71C1F200E9B701 /* FebruaryEasyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FebruaryEasyViewController.swift; sourceTree = "<group>"; };
+		ED3450582D71CA8800E9B701 /* MenuVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVM.swift; sourceTree = "<group>"; };
+		ED3450592D71CA8800E9B701 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		ED34505F2D71E6A600E9B701 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		ED3450622D71F59D00E9B701 /* MenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
+		ED3450652D7201EA00E9B701 /* FebruaryMediumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FebruaryMediumViewController.swift; sourceTree = "<group>"; };
+		ED3450672D72027300E9B701 /* FebruaryMedium.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FebruaryMedium.storyboard; sourceTree = "<group>"; };
+		ED34506E2D72036300E9B701 /* ColorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorVM.swift; sourceTree = "<group>"; };
+		ED34506F2D72036300E9B701 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,8 @@
 		ED0D503D2D71153C003AF4AF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				ED3450612D71F58F00E9B701 /* Data */,
+				ED3450542D71C99100E9B701 /* Subviews */,
 				ED0D503B2D711423003AF4AF /* MainViewController.swift */,
 			);
 			path = Main;
@@ -104,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				ED0D50392D7113F6003AF4AF /* Main.storyboard */,
-				ED1D67332D6FAF3300EAB9D4 /* FebruaryEasy.storyboard */,
+				ED3450692D72027B00E9B701 /* February */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -178,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3450512D71C1D100E9B701 /* Easy */,
+				ED3450642D7201CC00E9B701 /* Medium */,
 			);
 			path = February;
 			sourceTree = "<group>";
@@ -188,6 +207,83 @@
 				ED3450522D71C1F200E9B701 /* FebruaryEasyViewController.swift */,
 			);
 			path = Easy;
+			sourceTree = "<group>";
+		};
+		ED3450542D71C99100E9B701 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450552D71C99A00E9B701 /* Cells */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		ED3450552D71C99A00E9B701 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450562D71CA6D00E9B701 /* Menu */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ED3450562D71CA6D00E9B701 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450582D71CA8800E9B701 /* MenuVM.swift */,
+				ED3450592D71CA8800E9B701 /* MenuCell.swift */,
+				ED34505F2D71E6A600E9B701 /* MenuCell.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		ED3450612D71F58F00E9B701 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450622D71F59D00E9B701 /* MenuData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ED3450642D7201CC00E9B701 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				ED34506A2D72032C00E9B701 /* Subviews */,
+				ED3450652D7201EA00E9B701 /* FebruaryMediumViewController.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		ED3450692D72027B00E9B701 /* February */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D67332D6FAF3300EAB9D4 /* FebruaryEasy.storyboard */,
+				ED3450672D72027300E9B701 /* FebruaryMedium.storyboard */,
+			);
+			path = February;
+			sourceTree = "<group>";
+		};
+		ED34506A2D72032C00E9B701 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				ED34506B2D72033300E9B701 /* Cells */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		ED34506B2D72033300E9B701 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED34506C2D72035400E9B701 /* Item */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ED34506C2D72035400E9B701 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				ED34506E2D72036300E9B701 /* ColorVM.swift */,
+				ED34506F2D72036300E9B701 /* ColorCell.swift */,
+			);
+			path = Item;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +347,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1D67372D6FAF3500EAB9D4 /* Assets.xcassets in Resources */,
+				ED3450682D72027300E9B701 /* FebruaryMedium.storyboard in Resources */,
 				ED1D673A2D6FAF3500EAB9D4 /* Base in Resources */,
+				ED3450602D71E6A600E9B701 /* MenuCell.xib in Resources */,
 				ED34504C2D71BF2500E9B701 /* Localizable.strings in Resources */,
 				ED1D67352D6FAF3300EAB9D4 /* Base in Resources */,
 				ED34504D2D71BF2500E9B701 /* Localizable.stringsdict in Resources */,
@@ -289,10 +387,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3450382D71BBA200E9B701 /* StoryboardSegues.swift in Sources */,
+				ED3450662D7201EA00E9B701 /* FebruaryMediumViewController.swift in Sources */,
 				ED34504F2D71BF8600E9B701 /* Strings.swift in Sources */,
 				ED3450362D71BBA200E9B701 /* Plist.swift in Sources */,
+				ED34505B2D71CA8800E9B701 /* MenuVM.swift in Sources */,
+				ED3450632D71F59D00E9B701 /* MenuData.swift in Sources */,
+				ED34505C2D71CA8800E9B701 /* MenuCell.swift in Sources */,
 				ED0D503C2D711423003AF4AF /* MainViewController.swift in Sources */,
 				ED3450392D71BBA200E9B701 /* StoryboardScenes.swift in Sources */,
+				ED3450712D72036300E9B701 /* ColorVM.swift in Sources */,
+				ED3450722D72036300E9B701 /* ColorCell.swift in Sources */,
 				ED3450532D71C1F200E9B701 /* FebruaryEasyViewController.swift in Sources */,
 				ED3450372D71BBA200E9B701 /* Assets.swift in Sources */,
 				ED1D672E2D6FAF3300EAB9D4 /* AppDelegate.swift in Sources */,

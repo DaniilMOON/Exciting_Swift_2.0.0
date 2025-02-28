@@ -1,7 +1,7 @@
-/* 
-  Localizable.strings
-  Exciting_Swift_2.0.0
+"Menu.title" = "Задания месяца";
 
-  Created by Даниил Осипов on 28.02.2025.
-  
-*/
+"Month.february" = "Февраль";
+
+"Сomplexity.easy" = "Легкое";
+"Сomplexity.medium" = "Среднее";
+"Сomplexity.hard" = "Сложное";
