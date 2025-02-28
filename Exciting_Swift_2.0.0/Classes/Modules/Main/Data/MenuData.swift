@@ -16,7 +16,7 @@ extension MenuData {
         var data: [Сomplexity] {
             switch self {
             case .february:
-                [.easy]
+                [.easy, .medium]
             }
         }
     }

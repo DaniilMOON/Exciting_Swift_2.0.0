@@ -46,12 +46,13 @@ final class MainViewController: UIViewController {
             menuData = complexities.compactMap {
                 switch $0 {
                 case .easy:
-                    let vc = VCFactory.buildFebruaryEasyVC
                     return .init(title: $0.title) {
-                        self.navigationController?.pushViewController(vc, animated: true)
+                        self.navigationController?.pushViewController(VCFactory.buildFebruaryEasyVC, animated: true)
                     }
                 case .medium:
-                    return nil
+                    return .init(title: $0.title) {
+                        self.navigationController?.pushViewController(VCFactory.buildFebruaryMediumVC, animated: true)
+                    }
                 case .hard:
                     return nil
                 }

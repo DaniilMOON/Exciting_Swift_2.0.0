@@ -30,6 +30,7 @@
 		ED3450682D72027300E9B701 /* FebruaryMedium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3450672D72027300E9B701 /* FebruaryMedium.storyboard */; };
 		ED3450712D72036300E9B701 /* ColorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34506E2D72036300E9B701 /* ColorVM.swift */; };
 		ED3450722D72036300E9B701 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34506F2D72036300E9B701 /* ColorCell.swift */; };
+		ED3450862D722E0F00E9B701 /* SectionBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3450842D722E0F00E9B701 /* SectionBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		ED3450672D72027300E9B701 /* FebruaryMedium.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FebruaryMedium.storyboard; sourceTree = "<group>"; };
 		ED34506E2D72036300E9B701 /* ColorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorVM.swift; sourceTree = "<group>"; };
 		ED34506F2D72036300E9B701 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		ED3450842D722E0F00E9B701 /* SectionBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				ED34506B2D72033300E9B701 /* Cells */,
+				ED3450752D7209AF00E9B701 /* Supplementaries */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -284,6 +287,22 @@
 				ED34506F2D72036300E9B701 /* ColorCell.swift */,
 			);
 			path = Item;
+			sourceTree = "<group>";
+		};
+		ED3450752D7209AF00E9B701 /* Supplementaries */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450762D7209BE00E9B701 /* SectionBackground */,
+			);
+			path = Supplementaries;
+			sourceTree = "<group>";
+		};
+		ED3450762D7209BE00E9B701 /* SectionBackground */ = {
+			isa = PBXGroup;
+			children = (
+				ED3450842D722E0F00E9B701 /* SectionBackgroundView.swift */,
+			);
+			path = SectionBackground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +407,7 @@
 			files = (
 				ED3450382D71BBA200E9B701 /* StoryboardSegues.swift in Sources */,
 				ED3450662D7201EA00E9B701 /* FebruaryMediumViewController.swift in Sources */,
+				ED3450862D722E0F00E9B701 /* SectionBackgroundView.swift in Sources */,
 				ED34504F2D71BF8600E9B701 /* Strings.swift in Sources */,
 				ED3450362D71BBA200E9B701 /* Plist.swift in Sources */,
 				ED34505B2D71CA8800E9B701 /* MenuVM.swift in Sources */,

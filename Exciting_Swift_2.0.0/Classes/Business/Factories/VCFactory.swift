@@ -10,4 +10,8 @@ enum VCFactory {
     static var buildFebruaryEasyVC: UIViewController {
         StoryboardScene.FebruaryEasy.initialScene.instantiate()
     }
+
+    static var buildFebruaryMediumVC: UIViewController {
+        StoryboardScene.FebruaryMedium.initialScene.instantiate()
+    }
 }

@@ -17,6 +17,11 @@ internal enum StoryboardScene {
 
     internal static let initialScene = InitialSceneType<FebruaryEasyViewController>(storyboard: Self.self)
   }
+  internal enum FebruaryMedium: StoryboardType {
+    internal static let storyboardName = "FebruaryMedium"
+
+    internal static let initialScene = InitialSceneType<FebruaryMediumViewController>(storyboard: Self.self)
+  }
   internal enum Main: StoryboardType {
     internal static let storyboardName = "Main"
 
